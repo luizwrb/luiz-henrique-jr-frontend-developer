@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:url('https://thumbs.dreamstime.com/b/vector-abstract-engineering-future-technology-telecom-background-illustration-innovation-50247533.jpg');
+   background-size: auto 120vh;
+   font-family: arial;
+    height: 120vh;
+ }
+ 
+ .menu {
+   background-color: white;
+ }
+ 
+ a {
+   color: teal;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   text-decoration: underline;
+ }
+
+ .menu ul {
+   display: flex;
+   justify-content:space-around;
+ }
+
+ .menu li {
+   list-style: none;
+ }
+ .site-subtitle,
+ .site-title {
+   text-align: center;
+   color: whitesmoke;
+ }
+ 
+ .site-subtitle {
+   font-style: italic;
+ }
+
+ .img-portfolio{
+width:180px ;
+height:180px ;
+ }
